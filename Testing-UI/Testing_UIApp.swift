@@ -12,6 +12,8 @@ struct Testing_UIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.light)
         }
+        .windowStyle(.hiddenTitleBar)
     }
 }
