@@ -14,6 +14,8 @@
 		06AA40EA2B73F922007B39BA /* Testing_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA40E92B73F922007B39BA /* Testing_UITests.swift */; };
 		06AA40F42B73F922007B39BA /* Testing_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA40F32B73F922007B39BA /* Testing_UIUITests.swift */; };
 		06AA40F62B73F922007B39BA /* Testing_UIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA40F52B73F922007B39BA /* Testing_UIUITestsLaunchTests.swift */; };
+		06C8267D2B74EAFC00145E4B /* LoggedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C8267C2B74EAFC00145E4B /* LoggedInView.swift */; };
+		06C826802B74EC2A00145E4B /* SettingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C8267F2B74EC2A00145E4B /* SettingButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		06AA40EF2B73F922007B39BA /* Testing-UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing-UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AA40F32B73F922007B39BA /* Testing_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_UIUITests.swift; sourceTree = "<group>"; };
 		06AA40F52B73F922007B39BA /* Testing_UIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_UIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06C8267C2B74EAFC00145E4B /* LoggedInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInView.swift; sourceTree = "<group>"; };
+		06C8267F2B74EC2A00145E4B /* SettingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +99,13 @@
 		06AA40D62B73F921007B39BA /* Testing-UI */ = {
 			isa = PBXGroup;
 			children = (
+				06C8267C2B74EAFC00145E4B /* LoggedInView.swift */,
 				06AA40D72B73F921007B39BA /* Testing_UIApp.swift */,
 				06AA40D92B73F921007B39BA /* ContentView.swift */,
 				06AA40DB2B73F922007B39BA /* Assets.xcassets */,
 				06AA40E02B73F922007B39BA /* Testing_UI.entitlements */,
 				06AA40DD2B73F922007B39BA /* Preview Content */,
+				06C8267F2B74EC2A00145E4B /* SettingButtonView.swift */,
 			);
 			path = "Testing-UI";
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				06AA40DA2B73F921007B39BA /* ContentView.swift in Sources */,
+				06C8267D2B74EAFC00145E4B /* LoggedInView.swift in Sources */,
 				06AA40D82B73F921007B39BA /* Testing_UIApp.swift in Sources */,
+				06C826802B74EC2A00145E4B /* SettingButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +433,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Testing-UI/Preview Content\"";
-				DEVELOPMENT_TEAM = 6MAUVS763K;
+				DEVELOPMENT_TEAM = 425Z5DVMTP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -452,7 +460,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Testing-UI/Preview Content\"";
-				DEVELOPMENT_TEAM = 6MAUVS763K;
+				DEVELOPMENT_TEAM = 425Z5DVMTP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
